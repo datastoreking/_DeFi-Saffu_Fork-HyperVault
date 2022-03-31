@@ -1,0 +1,186 @@
+.accounts{
+    width: 98%;
+}
+
+/* =================================================== */
+                /* Total Earned Box */
+/* =================================================== */
+.total_earned{
+    background: linear-gradient(270deg, rgba(136, 234, 207, 0.86) 0%, rgba(48, 189, 150, 0.86) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 12px 36px rgba(48, 189, 150, 0.36);
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    line-height: 0px;
+}
+.total_earned_p{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.total_earned_p_value{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+.total_earned_p_share{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* line-height: 24px; */
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* =================================================== */
+                /* Titano Price Box */
+/* =================================================== */
+.titano_price_duplicate{
+    background: #101C43;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.titano_price_duplicate_box{
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    box-sizing: border-box;
+    /* padding: 25px; */
+    width: 100%;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    padding: 0px 25px;
+}
+.titano_price_duplicate_box:nth-child(1){
+    border-radius: 12px 12px 0px 0px;
+}
+.titano_price_duplicate_box:last-child{
+    border-radius: 0px 0px 12px 12px;
+}
+.titano_price_duplicate_box:nth-child(2n+1){
+    background: #222E53;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.titano_price_duplicate_box:nth-child(2n){
+    background: #101C43;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.titano_price_duplicate_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.titano_price_duplicate_value{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    /* text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66); */
+
+}
+
+/* =================================================== */
+                /* Titano Price Box */
+/* =================================================== */
+.apy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.apy_box_related{
+    width: 48%;
+    background: #101C43;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    /* padding: 15px 25px; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.apy_box{
+    width: 50%;
+    padding: 5px 15px;
+    line-height: 14px;
+}
+.balance_box{
+    width: 50%;    
+    background: #1C2751;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* box-sizing: border-box; */
+    border-radius: 12px 12px 12px 12px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.balance_box_div{
+    background: #24D5A9;
+    border-radius: 11px;
+    /* width: 80%; */
+    padding: 10px 25px;
+}
+.apy_box_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.apy_box_value{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+     color: #24D5A9;
+    text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
+}
+.apy_box_share{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width : 720px) {
+    .apy{
+        flex-direction: column;
+    }
+    .apy_box_related{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .titano_price_duplicate{
+        padding: 0px;
+    }
+    .titano_price_duplicate_title{
+        font-size: 16px;
+    }
+    .titano_price_duplicate_value{
+        font-size: 16px;
+    }
+}

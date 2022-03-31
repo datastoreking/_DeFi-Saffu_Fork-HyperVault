@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  /* font-family: 'Quicksand', sans-serif; */
+  background: #08112e;
+  background-image: url(../src/Components/Images/HyperSwap\ bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.body{
+  display: flex;
+  /* position: absolute; */
+  /* justify-content: center; */
+}
+.sidebar_body{
+  width: 20%;
+  z-index: 11111111;
+}
+.home_body{
+  width: 80%;
+  margin-left: 10px;
+  /* border: 1px solid red; */
+}
+@media (max-width : 992px) {
+  .sidebar_body{
+    /* display: block; */
+    position: fixed;
+    width: 100%;
+  }
+  .home_body{
+    width: 100%;
+    margin-left: 18px;
+  }
+}
+@media (max-width : 768px ) {
+  .home_body{
+    margin-left: 15px
+  }
+}
+@media (max-width: 546px) {
+  .home_body{
+    margin-left: 10px;
+  }
+}
+
+@import url("./Components/Sidebar/Sidebar.css");
+@import url("./Components/Navbar/Navbar.css");
+@import url("./Components/Home/Home.css");
+@import url("./Components/Accounts/Accounts.css");
+@import url("./Components/HyperVault/HyperVault.css");
+@import url("./Components/Swap/Swap.css");
+@import url("./Components/Calculator/Calculator.css");
+@import url("./Components/Footer/Footer.css");

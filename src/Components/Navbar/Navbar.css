@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #17254E;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0px 0px 12px 12px;
+    padding: 0px 25px;
+    color: #fff;
+}
+.navbar p{
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* text-transform: uppercase; */
+}
+.navbar p span{
+    font-size: 16px;
+}
+.navbar a{
+    margin-left: 20px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 28px; */
+    background: #24D5A9;
+    border-radius: 10px;
+    padding: 8px 14px;
+    color: #fff;
+}
+
+.navbar button{
+    display: none;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.navbar button{
+    background: none;
+    width: none;
+}
+.hamburger {
+	display: none;
+	cursor: pointer;
+	position: relative;
+	z-index: 100;
+    margin-left: 12px;
+}
+.hamburger div {
+	height: 3px;
+	width: 35px;
+	background-color: #ffffff;
+	margin: 8px 0;
+	transition: all 0.3s ease;
+}
+
+@media (max-width : 992px) {
+    .navbar button{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+@media (max-width: 546px) {
+    .navbar{
+        justify-content: center;
+    }
+    .navbar img{
+        height: 20px;
+        width: 20px;
+    }   
+    .navbar p{
+        font-size: 16px;
+    }
+    .navbar p span{
+        font-size: 12px;
+    }
+    .navbar a{
+        padding: 3px 10px;
+        font-size: 16px;
+        margin-left: 10px;
+        line-height: 18px;
+    }
+    .navbar button{
+        font-size: 20px;
+    }
+}
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+	opacity: 0;
+}
+
+.toggle .line3 {
+	transform: rotate(45deg) translate(-9px, -9px);
+}

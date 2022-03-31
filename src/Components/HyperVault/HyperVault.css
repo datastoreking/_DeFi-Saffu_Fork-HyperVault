@@ -1,0 +1,165 @@
+.hyper_vault{
+    width: 98%;
+}
+.vault_balance{
+    background: #1D2950;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.vault_balance_title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.vault_balance_value{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+     margin-top: -10px;
+    color: rgba(255, 255, 255, 0.8);
+    color: #24D5A9;
+    text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
+}
+.field__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.field__title span{
+    display: inline-block;
+    color: #3750B2;
+    border: 1px solid #3750B2;
+    padding: 0px 16px ;
+    border-radius: 14px;
+}
+/* =================================================== */
+                /* Locked Amount Box */
+/* =================================================== */
+.locked_amount{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.locked_amount_heading{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #FFFFFF;
+    /* border-bottom: .5px solid rgb(255, 255, 255); */
+}
+.increase_apy_rate{
+    background: #101C43;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px 30px;
+    display: block;
+    width: 35%;
+    position: relative;
+    margin-top: 28px;
+}
+.increase_apy_rate_heading{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    border-bottom: .1px solid rgba(255, 255, 255, 0.1);
+}
+.increase_apy_rate{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.increase_apy_rate input{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 12px;
+    background: #222E53;
+    border-radius: 12px;
+    border: none;
+    /* padding: 10px 30px; */
+}
+.increase_apy_rate input::placeholder{
+    margin-right: 20px;
+    text-align: right;
+    color: #fff;
+     font-family: 'Kanit';
+}
+.increase_apy_rate button{
+    cursor: pointer;
+    background: #24D5A9;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.time{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time span{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #222E53;
+    padding: 15px ;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin:0px 3px;
+    color: #fff;
+}
+.time span small{
+    font-size: 16px;
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+@media (max-width : 700px) {
+    .increase_apy_rate{
+        width: 60%;
+    }
+}
+@media (max-width: 450px) {
+    .increase_apy_rate{
+        width: 85%;
+        padding: 20px 10px;
+    }
+    .locked_amount_heading{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
