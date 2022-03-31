@@ -36,8 +36,8 @@ const Calculator = () => {
                 aria-label="Temperature"
                 defaultValue={30}
                 valueLabelDisplay="auto"
-                min={10}
-                max={100}
+                min={1}
+                max={365}
                 color="primary"
                 background= "#24D5A9"
             />
