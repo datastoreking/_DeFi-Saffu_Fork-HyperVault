@@ -23,7 +23,6 @@
 .wallet-wrap h1 {
     font-weight: 500;
     line-height: 1.5;
-    font-family: 'Kanit';
     color: #24D5A9;
     font-size: 38px;
     margin: 12px 0px;
@@ -36,7 +35,6 @@
 
 .wallets p {
     color: #676f7c;
-    font-family: 'Kanit';
     margin: 0;
 }
 
@@ -52,8 +50,6 @@
 
 .wallet-opt {
     display: flex;
-    /* margin-top: 12px; */
-    /* margin-bottom: 50px; */
     justify-content: space-between;
 }
 

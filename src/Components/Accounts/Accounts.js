@@ -12,27 +12,25 @@ const Accounts = () => {
         <div className="apy">
             <div className="apy_box_related">
                 <div className="apy_box">
-                    <p className="apy_box_title">APY</p>
-                    <p className="apy_box_value">102,483.58%</p>
-                    <p className="apy_box_share">Daily ROI 1.9176%</p>
+                    <p className="apy_box_title">Standard APY</p>
+                    <p className="apy_box_value">617,122.283%</p>
+                    <p className="apy_box_share">Daily ROI 2.42%</p>
                 </div>
                 <div className="balance_box">
                     <p className="balance_box_title">Your Balance</p>
-                    <div className='balance_box_div'></div>
-                    <p className="balance_box_share">Daily ROI 1.9176%</p>
+                    <div className='balance_box_div'>
+						<div className='balance_box_div_l'>1,500</div>
+						<div className='balance_box_div_r'>$VAULT</div>
+					</div>
                 </div>
             </div>
-            <div className="apy_box_related">
-                <div className="apy_box">
-                    <p className="apy_box_title">APY</p>
-                    <p className="apy_box_value">102,483.58%</p>
-                    <p className="apy_box_share">Daily ROI 1.9176%</p>
-                </div>
-                <div className="balance_box">
-                    <p className="balance_box_title">Your Balance</p>
-                    <div className='balance_box_div'></div>
-                    <p className="balance_box_share">Daily ROI 1.9176%</p>
-                </div>
+            <div className="apy_box_related_r">
+                <p className="apy_box_top">
+                    Next Rebase
+                </p>
+                <p className="apy_box_bottom">
+                    00:08:48
+                </p>
             </div>
         </div>
         <div className="titano_price_duplicate">

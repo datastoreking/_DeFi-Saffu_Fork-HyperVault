@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footer_box">
-            <p>HYPER VOULT</p>
-            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> What is Hyper Voult</Link>
-            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Get Hyper Voult</Link>
+            <p>HyperVault</p>
+            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> What is HyperVault</Link>
+            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Get HyperVault</Link>
             <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Trading Chart</Link>
             <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Smart Contracts</Link>
             <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Liquidity Lock</Link>

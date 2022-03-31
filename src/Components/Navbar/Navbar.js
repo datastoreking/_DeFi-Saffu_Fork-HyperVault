@@ -28,9 +28,7 @@ const Navbar = ({ sidebar, set, setShowModal, walletProvider}) => {
         setWalletAddress(temp_address.substr(0, 6) + '...' + temp_address.substr(-4));            
     }
     fetchWalletProvider();
-	}, [walletProvider]);
-
-  
+	});
 
   return (
     <div className="navbar">

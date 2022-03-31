@@ -23,19 +23,14 @@ const SidebarData = [
         path : "/calculator"
     },
     {
-        name : "Hyper Vault",
+        name : "HyperVault",
         menuIcon : hyperVault,
         path : "/hyper_vault"
     },
     {
-        name : "Hyper Swap",
+        name : "HyperSwap",
         menuIcon : swap,
         path : "/swap"
-    },
-    {
-        name : "Docs",
-        menuIcon : docs,
-        path : "/docs"
     }
  ]
 export default SidebarData;

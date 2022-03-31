@@ -39,7 +39,7 @@ const ConnectWallet = ({ showModal, setShowModal, walletProvider, setWalletProvi
 			setShowModal(false);
 		}
 	});
-
+	
 	return (
 		<>
 			{showModal ? (

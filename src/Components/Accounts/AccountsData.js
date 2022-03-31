@@ -1,27 +1,19 @@
 export const titanoPriceData=[
     {
         title: "Curent HyperVault Price",
-        value : "$0.1950 USD"
+        value : "$0.1950"
     },
     {
         title: "Next Reward Amount",
-        value : "TITANO"
+        value : "15$ VAULT"
     },
-    {
-        title: "Next Reward Amount USD",
-        value : "USD"
+	{
+        title: "Next Reward Amount",
+        value : "18$"
     },
     {
         title: "Next Reward Yield",
-        value : "0.03958%"
-    },
-    {
-        title: "ROI (30-Day Rate)",
-        value : "76.80%"
-    },
-    {
-        title: "ROI (30-Day Rate) USD",
-        value : "USD"
+        value : "0.02520%"
     },
 ]
 

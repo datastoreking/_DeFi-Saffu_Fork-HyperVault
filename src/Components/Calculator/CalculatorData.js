@@ -28,12 +28,7 @@ export const CalculatorAmountData = [
         title:"HyperVault price at purchase ($)",
         value : "0.201145",
         position : "Current"
-    },
-    {
-        title:"Future HyperVault PRICE ($)",
-        value : "0.201145",
-        position : "Current"
-    },
+    }
 ]
 
 export const CalculatorTitanoPriceData =[

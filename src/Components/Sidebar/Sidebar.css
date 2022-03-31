@@ -1,7 +1,6 @@
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     position: fixed;
     background: #17254E;
@@ -12,103 +11,108 @@
     overflow-y: auto;
 }
 
-.logo{
+.logo {
     margin-bottom: 20px;
 }
-.menu{
+
+.menu {
     width: 100%;
 }
-.menu div{
+
+.menu div {
     padding: 0px 0px 10px 40px;
 }
-.menu a{
+
+.menu a {
     display: flex;
     align-items: center;
-    /* background-color: ; */
     color: #fff;
-    /* width: 100%; */
     border-radius: 80px 0px 0px 80px;
     padding: 8px 5px;
     justify-content: flex-start;
-    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-
 }
-.active{
+
+.active {
     background: #24d5A9;
     color: #fff;
     position: relative;
 }
-.menu img{
+
+.menu img {
     height: 20px!important;
     width: 20px !important;
-    background: rgba(29, 29, 66, 0.66);;
+    background: rgba(29, 29, 66, 0.66);
+    ;
     padding: 5px;
     border-radius: 50%;
 }
-.menu span{
+
+.menu span {
     margin-left: 10px;
 }
 
-.social{
+.social {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
 }
-.social img{
+
+.social img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
     margin-top: 8px;
 }
 
-@media (max-width : 1120px) {
-    .social img{
+@media (max-width: 1120px) {
+    .social img {
         margin-right: 5px;
     }
 }
+
 @media (max-width: 992px) {
-    .sidebar{
+    .sidebar {
         width: 30%;
         left: -100%;
         transition: 850ms;
     }
-    .open{
+    .open {
         left: 0%;
     }
-    
 }
+
 @media (max-width: 700px) {
-    .sidebar{
+    .sidebar {
         width: 40%;
     }
 }
+
 @media (max-width: 546px) {
-    .sidebar{
+    .sidebar {
         width: 50%;
     }
 }
+
 @media (max-width: 450px) {
-    .sidebar{
+    .sidebar {
         width: 65%;
     }
 }
 
-.menu__wrap .active{
+.menu__wrap .active {
     position: relative;
 }
-.menu__circle__top{
 
-/* background: #24d5A9; */
-position: absolute;
-right: 0;
-width: 0;
-      height: 0;
-      border-bottom: px solid red;
-      border-left: 10px solid transparent;
-top: -20px;
-
+.menu__circle__top {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: px solid red;
+    border-left: 10px solid transparent;
+    top: -20px;
 }

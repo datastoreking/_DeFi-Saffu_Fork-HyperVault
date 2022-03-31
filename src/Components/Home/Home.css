@@ -1,63 +1,65 @@
-.home{
+.home {
     width: 98%;
     margin-top: 20px;
 }
 
+
 /* Marketplace Description */
-.marketplace_desc{
+
+.marketplace_desc {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.marketplace_desc_poperty{
+
+.marketplace_desc_poperty {
     width: 32%;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
-    /* height: fit-content; */
     align-items: center;
     justify-content: center;
     box-shadow: 0px 10px 30px rgba(148, 116, 221, 0.36);
     border-radius: 12px;
     padding: 15px 0px;
 }
-.marketplace_desc_poperty p{
+
+.marketplace_desc_poperty p {
     line-height: 5px;
     margin-top: 20px;
 }
-.marketplace_desc_poperty .heading{
-    font-family: 'Kanit';
+
+.marketplace_desc_poperty .heading {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.9);
-    /* line-height: 10px; */
 }
-.marketplace_desc_poperty .value{
-    font-family: 'Kanit';
+
+.marketplace_desc_poperty .value {
     font-style: normal;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 35px;
     color: rgba(255, 255, 255, 0.9);
-
-    /* line-height: 36px; */
 }
 
 
-
-/* =================================================== */
-                /* Titano Price Box */
 /* =================================================== */
 
 
+/* Titano Price Box */
 
-.titano_price{
+
+/* =================================================== */
+
+.titano_price {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
 }
-.titano_price_box{
+
+.titano_price_box {
     width: 49%;
     padding: 10px 30px;
     background: #1C2750;
@@ -69,39 +71,44 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-.desc_title{
-    font-family: 'Kanit';
+
+.desc_title {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.9);
 }
-.desc_value{
-    font-family: 'Kanit';
+
+.desc_value {
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
     color: #24D5A9;
     text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
 }
-.share p{
+
+.share p {
     padding: 10px 25px;
     background: #24D5A9;
     box-shadow: 0px 4px 16px rgba(36, 213, 169, 0.36);
     border-radius: 400px;
     color: #000;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
 }
 
+
 /* =================================================== */
-                /* Reward Box */
+
+
+/* Reward Box */
+
+
 /* =================================================== */
-.reward{
+
+.reward {
     background: #1C2750;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-sizing: border-box;
@@ -109,16 +116,16 @@
     margin-top: 50px;
     padding: 30px 35px;
 }
-.total_reward{
-    font-family: 'Kanit';
+
+.total_reward {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.9);
     line-height: 0px;
 }
-.reward_value{
-    font-family: 'Kanit';
+
+.reward_value {
     font-style: normal;
     font-weight: 600;
     font-size: 46px;
@@ -126,8 +133,8 @@
     text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
     line-height: 0px;
 }
-.reward_desc{
-    font-family: 'Kanit';
+
+.reward_desc {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -135,11 +142,16 @@
     line-height: 0px;
 }
 
-/* =================================================== */
-                /* Next Rebase Box */
+
 /* =================================================== */
 
-.next_rebase{
+
+/* Next Rebase Box */
+
+
+/* =================================================== */
+
+.next_rebase {
     display: flex;
     justify-content: space-between;
     background: #1C2750;
@@ -150,19 +162,17 @@
     align-items: center;
     padding: 25px 15px;
     flex-wrap: wrap;
-
 }
-.next_rebase_box{
+
+.next_rebase_box {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     text-align: center;
     width: 33%;
-    
 }
-.next_rebase_title{
-   
-    font-family: 'Kanit';
+
+.next_rebase_title {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -170,9 +180,8 @@
     text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
     line-height: 0px;
 }
-.next_rebase_value{
-    
-    font-family: 'Kanit';
+
+.next_rebase_value {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -180,10 +189,16 @@
     line-height: 0px;
 }
 
+
 /* =================================================== */
-                /* NOF Price Box */
+
+
+/* NOF Price Box */
+
+
 /* =================================================== */
-.nof_price{
+
+.nof_price {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -192,7 +207,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.nof_price_box{
+
+.nof_price_box {
     width: 49%;
     padding: 10px 30px;
     background: #1C2750;
@@ -203,26 +219,32 @@
     color: #fff;
     text-align: center;
 }
-.nof_price_title{
-    font-family: 'Kanit';
+
+.nof_price_title {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     color: #24D5A9;
     text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
 }
-.nof_price_value{
-    font-family: 'Kanit';
+
+.nof_price_value {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     color: rgba(255, 255, 255, 0.7);
 }
 
+
 /* =================================================== */
-                /* Next Rebase Box */
+
+
+/* Next Rebase Box */
+
+
 /* =================================================== */
-.nof_incinator{
+
+.nof_incinator {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -231,7 +253,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.nof_incinator_box{
+
+.nof_incinator_box {
     width: 32%;
     padding: 10px 30px;
     background: #1C2750;
@@ -243,43 +266,45 @@
     text-align: center;
     height: 160px;
 }
-.nof_incinator_title{
-    font-family: 'Kanit';
+
+.nof_incinator_title {
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     color: #24D5A9;
     text-shadow: 0px 1px 14px rgba(36, 213, 169, 0.66);
 }
-.nof_incinator_value{
-    font-family: 'Kanit';
+
+.nof_incinator_value {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
 }
+
 @media (max-width: 992px) {
-    .marketplace_desc_poperty{
+    .marketplace_desc_poperty {
         width: 33%;
         margin-right: 0px;
     }
 }
+
 @media (max-width: 786px) {
-    .marketplace_desc_poperty{
+    .marketplace_desc_poperty {
         width: 100%;
         margin-top: 20px;
     }
-    .titano_price_box{
+    .titano_price_box {
         width: 100%;
     }
-    .nof_incinator_box{
+    .nof_incinator_box {
         width: 100%;
     }
-    .nof_price_box{
+    .nof_price_box {
         width: 100%;
     }
-    .next_rebase_box{
+    .next_rebase_box {
         width: 100%;
-        border:1px solid rgba(255, 255, 255, 0.36) ;
+        border: 1px solid rgba(255, 255, 255, 0.36);
         margin-top: 10px;
     }
 }

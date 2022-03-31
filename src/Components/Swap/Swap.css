@@ -19,7 +19,6 @@
     line-height: 10px;
     text-align: center;
     color: #fff;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -46,7 +45,6 @@
 
 .swap_heading {
     color: #fff;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px !important;
@@ -76,13 +74,12 @@
 .Bnb .field__title span {
     font-size: 14px;
     line-height: 1.4;
-    font-family: 'Kanit';
+	cursor: pointer;
 }
 
 .Bnb select {
     width: 25%;
     padding: 5px 15px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -98,7 +95,6 @@
     border-radius: 12px;
     padding: 8px 45px;
     border: none;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -121,7 +117,6 @@
     text-align: right;
     border: 0;
     outline: 0;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -147,7 +142,6 @@
 .Vault select {
     width: 25%;
     padding: 5px 15px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -163,7 +157,6 @@
     align-items: center;
     margin-top: -30px;
     color: #fff;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -178,7 +171,6 @@
     border-radius: 12px;
     border: none;
     padding: 20px 15px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -212,7 +204,6 @@
 }
 
 .swap_option_select p {
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -234,7 +225,6 @@
 
 .swap_option_box div p {
     line-height: 10px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -260,7 +250,6 @@
 .swap_box_bnb div {
     margin-left: 10px;
     line-height: 10px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -355,5 +344,4 @@
 
 .box_input input::placeholder {
     color: #fff;
-    font-family: 'Kanit';
 }

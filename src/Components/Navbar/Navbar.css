@@ -12,11 +12,9 @@
 .navbar p {
     margin-left: 10px;
     color: #fff;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    /* text-transform: uppercase; */
 }
 
 .navbar p span {
@@ -25,7 +23,6 @@
 
 .connectwalletBtn {
     margin-left: 20px;
-    font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

@@ -77,7 +77,7 @@ const Swap = () => {
                </div>
            </div>
            <div className="slippage_tollarance">
-               <p>Slippage Tollarance</p><span>0.5%</span>
+               <p>Slippage Tolerance</p><span>0.5%</span>
             </div>
             <button className='hyperswap_button'>Swap</button>
         </div>
