@@ -1,4 +1,4 @@
-.footer{
+.footer {
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
@@ -7,14 +7,16 @@
     margin-top: 20px;
     padding: 40px 60px;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
 }
-.footer_box{
+
+.footer_box {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
 }
-.footer_box p{
+
+.footer_box p {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
@@ -23,7 +25,8 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
-.footer_box a{
+
+.footer_box a {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
@@ -31,6 +34,7 @@
     color: #fff;
     line-height: 30px;
 }
-.footer_box a img{
+
+.footer_box a img {
     margin-right: 10px;
 }

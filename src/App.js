@@ -1,4 +1,5 @@
-import {Route, Routes, Switch} from 'react-router-dom'
+import { useState } from 'react';
+import {Route, Routes} from 'react-router-dom'
 import Sidebar from '../src/Components/Sidebar/Sidebar.js'
 import Home from '../src/Components/Home/Home.js'
 import Navbar from './Components/Navbar/Navbar';
@@ -8,11 +9,13 @@ import Swap from './Components/Swap/Swap.js';
 import Footer from './Components/Footer/Footer.js';
 import Calculator from './Components/Calculator/Calculator.js';
 import ConnectWallet from './Components/ConnectWallet/ConnectWallet';
-import { useState } from 'react';
+
+
 
 function App() {
   const [showModal, setShowModal] = useState(false);
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(false);
+  const [walletProvider, setWalletProvider] = useState();
 
   return (
     <>
@@ -21,7 +24,7 @@ function App() {
         <Sidebar sidebar={sidebar} set={setSidebar}/>
       </div>
       <div className="home_body">
-        <Navbar sidebar={sidebar} set={setSidebar}  setShowModal={setShowModal}/>
+        <Navbar sidebar={sidebar} set={setSidebar}  setShowModal={setShowModal} walletProvider={walletProvider}/>
         <Routes>
           <Route exact element={<Home   />} path='/' />
           <Route exact element={<Accounts/>} path='/account' />
@@ -31,7 +34,7 @@ function App() {
         </Routes>
         <Footer/>
      </div>
-      <ConnectWallet showModal={showModal} setShowModal={setShowModal} />
+      <ConnectWallet showModal={showModal} setShowModal={setShowModal} walletProvider={walletProvider} setWalletProvider={setWalletProvider} />
     </div>
     </>
   );

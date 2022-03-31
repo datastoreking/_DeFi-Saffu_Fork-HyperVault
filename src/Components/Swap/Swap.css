@@ -1,19 +1,21 @@
-.swap{
+.swap {
     background: #101C43;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     margin: 50px auto;
     display: block;
     width: 40%;
-    padding:0px 40px;
+    padding: 0px 40px;
 }
-.swap_logo{
+
+.swap_logo {
     display: flex;
     flex-direction: column;
     border-bottom: .5px solid rgba(255, 255, 255, 0.1);
     padding: 20px 0px;
 }
-.swap_logo p{
+
+.swap_logo p {
     line-height: 10px;
     text-align: center;
     color: #fff;
@@ -22,54 +24,62 @@
     font-weight: 400;
     font-size: 16px;
 }
-.swap_logo_box{
+
+.swap_logo_box {
     display: flex;
-    justify-content:  end;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.swap_box{
+.swap_box {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.swap_box img{
+
+.swap_box img {
     height: 20px;
     width: 20px;
     margin-right: 8px;
     cursor: pointer;
 }
-.swap_heading{
+
+.swap_heading {
     color: #fff;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px  !important;
+    font-size: 20px !important;
     margin-right: 8px;
 }
 
-.input_box{
+.input_box {
     display: flex;
     flex-direction: column;
     margin: 10px 0px;
 }
 
+
 /* BNB */
-.Bnb{
+
+.Bnb {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.Bnb img{
+
+.Bnb img {
     width: 28px;
     height: 28px;
 }
-.Bnb .field__title span{
+
+.Bnb .field__title span {
     font-size: 14px;
     line-height: 1.4;
     font-family: 'Kanit';
 }
-.Bnb select{
+
+.Bnb select {
     width: 25%;
     padding: 5px 15px;
     font-family: 'Kanit';
@@ -81,26 +91,27 @@
     border: none;
     color: #fff;
 }
-.Bnb button{
+
+.Bnb button {
     background: #24D5A9;
     box-shadow: 0px 12px 36px rgba(36, 213, 169, 0.18);
     border-radius: 12px;
     padding: 8px 45px;
     border: none;
-    
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
 }
-.box_input{
+
+.box_input {
     width: 100%;
     padding: 20px 0px;
     margin-bottom: 30px;
-   
 }
-.box_input input{
+
+.box_input input {
     width: 95%;
     padding: 5px 20px;
     height: 60px;
@@ -108,28 +119,32 @@
     border-radius: 12px;
     border: none;
     text-align: right;
-     border: 0;
+    border: 0;
     outline: 0;
-font-family: 'Kanit';
+    font-family: 'Kanit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
 }
-.Vault{
+
+.Vault {
     display: flex;
     align-items: center;
 }
-.Vault img{
+
+.Vault img {
     width: 30px;
     height: 30px;
 }
-.Vault .icon{
+
+.Vault .icon {
     width: 20px;
     height: 20px;
     margin-left: 10px;
 }
-.Vault select{
+
+.Vault select {
     width: 25%;
     padding: 5px 15px;
     font-family: 'Kanit';
@@ -141,7 +156,8 @@ font-family: 'Kanit';
     border: none;
     color: #fff;
 }
-.slippage_tollarance{
+
+.slippage_tollarance {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,15 +168,16 @@ font-family: 'Kanit';
     font-weight: 400;
     font-size: 12px;
 }
-.slippage_tollarance span{
+
+.slippage_tollarance span {
     color: #1FC7D4;
 }
-.hyperswap_button{
+
+.hyperswap_button {
     background: #24D5A9;
     border-radius: 12px;
     border: none;
     padding: 20px 15px;
-    
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
@@ -169,7 +186,7 @@ font-family: 'Kanit';
     cursor: pointer;
 }
 
-.swap_option{
+.swap_option {
     position: absolute;
     top: 0;
     left: 0;
@@ -186,54 +203,61 @@ font-family: 'Kanit';
     border-radius: 40px;
 }
 
-.swap_option_select{
+.swap_option_select {
     display: flex;
     justify-content: space-between;
     padding: 25px 30px;
     border-bottom: 2px solid rgb(228, 225, 225);
     align-items: center;
 }
-.swap_option_select p{
+
+.swap_option_select p {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     letter-spacing: 0.06em;
 }
-.swap_option_box{
+
+.swap_option_box {
     width: 100%;
     display: flex;
     align-items: center;
     padding: 10px 25px;
     /* overflow: hidden; */
-
 }
-.swap_option_box div{
+
+.swap_option_box div {
     cursor: pointer;
     width: 100%;
 }
-.swap_option_box div p{
+
+.swap_option_box div p {
     line-height: 10px;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
 }
-.swap_2{
+
+.swap_2 {
     display: block;
     height: 75%;
     overflow: hidden;
     overflow-y: auto;
 }
-.swap_box_bnb{
+
+.swap_box_bnb {
     display: flex;
     align-items: center;
 }
+
 .swap_box_bnb img {
     width: 25px;
     height: 25px;
 }
-.swap_box_bnb div{
+
+.swap_box_bnb div {
     margin-left: 10px;
     line-height: 10px;
     font-family: 'Kanit';
@@ -243,57 +267,61 @@ font-family: 'Kanit';
     color: #fff;
     display: flex;
     align-items: center;
-
-}
-.swap_box_bnb div p{
-    margin-left:10px ;
 }
 
-.swap_option_box img{
-     height: 25px;
-     width: 25px;
-     margin-right: 10px;
+.swap_box_bnb div p {
+    margin-left: 10px;
 }
+
+.swap_option_box img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
 @media (max-width: 880px) {
-    .swap{
+    .swap {
         width: 70%;
     }
-    .swap_option{
+    .swap_option {
         width: 50%;
         margin: 50px auto;
         /* left: 150px; */
     }
 }
+
 @media (max-width: 700px) {
-    .swap{
+    .swap {
         display: block;
         width: 85%;
         margin: 50px 0px !important;
         /* display: flex; */
     }
-
 }
-@media (max-width : 648px) {
-    .swap{
+
+@media (max-width: 648px) {
+    .swap {
         width: 82%;
     }
-    .swap_option{
+    .swap_option {
         width: 60%;
     }
 }
+
 @media (max-width: 500px) {
-    .swap{
+    .swap {
         width: 80%;
     }
 }
+
 @media (max-width: 450px) {
-    .swap{
+    .swap {
         width: 76%;
     }
-    .Bnb select{
+    .Bnb select {
         width: 60%;
     }
-    .Vault select{
+    .Vault select {
         width: 60%;
     }
     .Bnb {
@@ -302,28 +330,30 @@ font-family: 'Kanit';
         /* justify-content: space-between; */
         flex-direction: column;
     }
-    .Bnb button{
+    .Bnb button {
         margin-top: 10px;
     }
-    .swap_option{
+    .swap_option {
         width: 80%;
     }
 }
+
 @media (max-width: 400px) {
-    .swap{
+    .swap {
         width: 74%;
     }
-    .swap_option_select p{
+    .swap_option_select p {
         font-size: 16px;
     }
 }
+
 @media (max-width: 350px) {
-    .swap{
+    .swap {
         width: 72%;
     }
 }
 
-.box_input input::placeholder{
+.box_input input::placeholder {
     color: #fff;
     font-family: 'Kanit';
 }

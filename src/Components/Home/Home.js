@@ -39,7 +39,7 @@ const Home = () => {
         <div className="next_rebase">
           {nextRebaseData.map((val, ind)=>{
             return(
-              <div className="next_rebase_box" style={{borderRight : `${(val.id==3)? "":"1px solid rgba(255, 255, 255, 0.36)"}`}} key={ind}>
+              <div className="next_rebase_box" style={{borderRight : `${(val.id===3)? "":"1px solid rgba(255, 255, 255, 0.36)"}`}} key={ind}>
                   <p className="next_rebase_title">{val.first}</p>
                   <p className="next_rebase_value">{val.value1}</p><br/><br/>
                   <p className="next_rebase_title">{val.second}</p>

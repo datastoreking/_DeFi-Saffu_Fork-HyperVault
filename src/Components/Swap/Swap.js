@@ -1,9 +1,7 @@
 import React,{useState} from 'react'
-import SwapLogo from '../Images/SwapLogo.png'
 import Settings from '../Images/Settings.png'
 import Reverse from '../Images/Reverse.png'
 import Next from '../Images/Next.png'
-import icon from '../Images/icon.png'
 import Arrow from '../Images/Arrow.png'
 import {MdOutlineCancel} from 'react-icons/md'
 import {AiOutlineDown} from 'react-icons/ai'
@@ -47,7 +45,7 @@ const Swap = () => {
            <div style={{display:"flex", flexDirection:"column"}}>  
                <div className='Bnb'>
                    <div className='swap_box_bnb' onClick={()=>setBnb(!Bnb)}>
-                        <img src={!dataBnb.logo ? BNB : dataBnb.logo} alt=""/>
+                        <img src={!dataBnb.logo ? BNB : dataBnb.logo} alt="BNBlogo"/>
                         <div >
                             <p>{!dataBnb.title? "BNB" : dataBnb.title}</p>
                             {/* <p>{data.title}</p> */}
@@ -62,7 +60,7 @@ const Swap = () => {
                     <input type="text" placeholder="0.0"/>
                </div>
            </div>
-           <div style={{display:"flex", justifyContent:"center", cursor:"pointer", marginBottom:"20px"}}><img src={Arrow} alt=""/></div>
+           <div style={{display:"flex", justifyContent:"center", cursor:"pointer", marginBottom:"20px"}}><img src={Arrow} alt="BNBlogo"/></div>
            <div style={{display:'flex', flexDirection:"column"}}>
                <div className="Vault">
                     <div className='swap_box_bnb' onClick={()=>setVault(!Vault)}>
@@ -92,7 +90,7 @@ const Swap = () => {
                 {SwapData.map((val, ind)=>{
                     return(
                         <div className='swap_option_box' key={ind} onClick={()=>swapSystem(val)}>
-                            <img src={val.logo}/>
+                            <img src={val.logo} alt="vallogo"/>
                             <div>
                                 <p>{val.title}</p>
                                 <p>{val.title}</p>
@@ -111,7 +109,7 @@ const Swap = () => {
                 {SwapData.map((val, ind)=>{
                     return(
                         <div className='swap_option_box' key={ind} onClick={()=>swapSystem2(val)}>
-                            <img src={val.logo}/>
+                            <img src={val.logo} alt="vallogo1"/>
                             <div>
                                 <p>{val.title}</p>
                                 <p style={{color: "gray"}}>{val.title}</p>
