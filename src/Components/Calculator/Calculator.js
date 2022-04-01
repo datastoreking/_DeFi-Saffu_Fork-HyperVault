@@ -1,5 +1,5 @@
 import React from 'react'
-import { CalculatorAmountData, CalculatorHyperData, CalculatorTitanoPriceData } from './CalculatorData'
+import { CalculatorHyperData } from './CalculatorData'
 import Slider from '@mui/material/Slider';
 import TextField from '@mui/material/TextField';
 
