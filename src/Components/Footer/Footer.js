@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="footer_box">
             <p>QUESTIONS</p>
             <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> Telegram DM</Link>
-            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> e-mail</Link>       
+            <Link to="#"><img src={FooterArrow} alt={FooterArrow}/> E-mail</Link>       
         </div>
     </div>
   )

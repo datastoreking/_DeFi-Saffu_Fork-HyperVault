@@ -13,23 +13,6 @@ export const CalculatorHyperData = [
     },
    
 ]
-export const CalculatorAmountData = [
-    {
-        title:"HyperVault Amount",
-        value : "0",
-        position : "Max"
-    },
-    {
-        title:"APY (%)",
-        value : "617,122.283",
-        position : "Current"
-    },
-    {
-        title:"HyperVault price at purchase ($)",
-        value : "0.201145",
-        position : "Current"
-    }
-]
 
 export const CalculatorTitanoPriceData =[
     {

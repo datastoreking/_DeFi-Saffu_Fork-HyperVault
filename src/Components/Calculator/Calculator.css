@@ -78,11 +78,10 @@
 }
 
 .calculator_amount_box p {
+	margin: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 0px;
-    /* identical to box height, or 147% */
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -94,10 +93,28 @@
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px 20px;
+	margin-top: 10px;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+	width: 90%;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+	border: none !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+	color: white !important;
+	padding: 0 !important;
+	font-size: 16px;
+	font: unset !important;
 }
 
 .calculator_amount_box_content_position {
     color: rgba(255, 255, 255, 0.7);
+	margin: 0;
+	cursor: pointer;
 }
 
 .calculator_days {
