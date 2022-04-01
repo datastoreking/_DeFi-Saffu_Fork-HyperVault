@@ -31,8 +31,9 @@
     padding: 8px 5px;
     justify-content: flex-start;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 17px;
+	font-family: 'Quicksand';
 }
 
 .active {

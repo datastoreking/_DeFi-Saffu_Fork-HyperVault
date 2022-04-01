@@ -142,13 +142,13 @@
 }
 
 .time span {
+	font-family: 'Quicksand';
     height: 60px;
     width: 60px;
     border-radius: 50%;
     background: #222E53;
     padding: 15px;
     text-align: center;
-    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;

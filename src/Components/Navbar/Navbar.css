@@ -10,6 +10,7 @@
 }
 
 .navbar p {
+	font-family: 'Quicksand';
     margin-left: 10px;
     color: #fff;
     font-style: normal;
@@ -22,6 +23,7 @@
 }
 
 .connectwalletBtn {
+	font-family: sans-serif;
     margin-left: 20px;
     font-style: normal;
     font-weight: 400;

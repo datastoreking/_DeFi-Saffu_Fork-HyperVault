@@ -11,6 +11,11 @@ body {
     background-attachment: fixed;
 }
 
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand'), url(./fonts/quicksand/Quicksand_Light.otf) format('truetype');
+}
+
 a {
     text-decoration: none;
 }
