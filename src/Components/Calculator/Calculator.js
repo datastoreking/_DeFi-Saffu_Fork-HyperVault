@@ -18,12 +18,13 @@ const Calculator = () => {
   
   const[datepow, setDatepow] = React.useState(Math.pow(1.018999, 30));
   console.log(datepow);
-  
   const handleValue = (event: any, newValue: any) => {
 	setSliderValue(newValue);
-	setDatepow(Math.pow(1.018999, (newValue - 1)));
-	setRewardestimation(Number((newValue*(Math.pow(1.018999, (newValue - 1)))).toFixed(2)));
-	setPotentialreturn(Number((newValue*hypervaultprice*(Math.pow(1.018999, (newValue - 1)))).toFixed(2)));
+	console.log(newValue);
+	setDatepow(Math.pow(1.018999, newValue));
+	setRewardestimation(Number((Math.pow(1.018999, newValue)*hypervaultamount).toFixed(2)));
+	setPotentialreturn(Number((newValue*6171.22/365*initialinvestment)).toFixed(2));
+	
 }
   
   const hypervaultamountHandler = (e) => {
@@ -31,7 +32,7 @@ const Calculator = () => {
 	setHypervaultamount(temp);
 	setInitialinvestment(Number((temp*hypervaultprice).toFixed(2)));
 	setRewardestimation(Number((temp*datepow).toFixed(2)));
-	setPotentialreturn(Number((temp*hypervaultprice*datepow).toFixed(2)));
+	setPotentialreturn(Number((temp*hypervaultprice*slidervalue*6171.22283/365).toFixed(2)));
   }
   
   const hypervaultpriceHandler = (e) => {
@@ -42,7 +43,7 @@ const Calculator = () => {
   
   const futurehypervaultpriceHandler = (e) => {
 	const temp = e.target.value;
-	setFuturehypervaultprice(temp);
+	setPotentialreturn(Number((temp*hypervaultamount*slidervalue*6171.22283/365).toFixed(2)));
   }
 	
   return (
